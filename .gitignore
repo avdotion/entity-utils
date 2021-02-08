@@ -1,0 +1,10 @@
+/node_modules/
+/benchmark/node_modules/
+/benchmark/results/*.chart.html
+/examples/webapp/node_modules/
+/examples/webapp/.eslintcache
+/examples/webapp/build/
+
+/examples/simple/dist/
+/.husky/
+/package/src/playground.ts

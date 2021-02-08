@@ -1,0 +1,41 @@
+{
+  "name": "entity-utils",
+  "version": "1.0.0",
+  "description": "An utilities set to keep project fresh, designed especially for scaled applications",
+  "main": "package/dist/index.js",
+  "scripts": {
+    "test": "cd package && jest src/",
+    "build": "cd package && rm -rf ./dist && tsc",
+    "lint": "eslint package/src",
+    "lint:fix": "npm run lint -- --fix",
+    "ci:lint": "CI=true npm run lint",
+    "ci:build": "CI=true npm run build",
+    "ci:test": "CI=true npm run test",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "benchmark": "cd benchmark && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avdotion/entity-utils.git"
+  },
+  "author": "Danila Avdoshin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avdotion/entity-utils/issues"
+  },
+  "homepage": "https://github.com/avdotion/entity-utils#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint": "^7.18.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "husky": "^5.0.8",
+    "jest": "^26.6.0",
+    "pinst": "^2.1.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Normalize plain structure",
+  "date": "2021-02-08T19:30:24.234Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "normalize",
+      "ops": 885928,
+      "margin": 0.45,
+      "percentSlower": 0
+    },
+    {
+      "name": "normalizr",
+      "ops": 761241,
+      "margin": 1.27,
+      "percentSlower": 14.07
+    }
+  ],
+  "fastest": {
+    "name": "normalize",
+    "index": 0
+  },
+  "slowest": {
+    "name": "normalizr",
+    "index": 1
+  }
+}
