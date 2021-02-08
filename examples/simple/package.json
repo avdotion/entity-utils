@@ -1,0 +1,12 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "prepare": "mkdir -p node_modules && cd node_modules && ln -nsf ../../../package/src/ entity-utils"
+  },
+  "author": "",
+  "license": "ISC"
+}
