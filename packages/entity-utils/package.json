@@ -16,7 +16,7 @@
     "benchmark": "cd benchmark && npm run start"
   },
   "author": "Danila Avdoshin",
-  "license" : "ISC",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/avdotion/entity-utils/issues"
   },
