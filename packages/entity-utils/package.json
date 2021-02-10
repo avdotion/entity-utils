@@ -1,6 +1,6 @@
 {
   "name": "entity-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The utilities set which suggests a way your application prepares to be scaled.The utilities set which suggests a way your application prepares to be scaled.",
   "source": "src/index.ts",
   "main": "dist/index.js",
