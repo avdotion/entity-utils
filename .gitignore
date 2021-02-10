@@ -7,3 +7,4 @@
 /examples/simple/dist/
 /.husky/
 /packages/entity-utils/dist/
+lerna-debug.log

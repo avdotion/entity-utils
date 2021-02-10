@@ -2,7 +2,9 @@
   "name": "entity-utils",
   "version": "0.0.1",
   "description": "The utilities set which suggests a way your application prepares to be scaled.The utilities set which suggests a way your application prepares to be scaled.",
-  "main": "index.js",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "../../node_modules/.bin/jest --config ../../jest.config.js src/",
     "clean": "rm -rf dist",
@@ -20,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/avdotion/entity-utils/issues"
   },
-  "homepage": "https://github.com/avdotion/entity-utils#readme"
+  "homepage": "https://github.com/avdotion/entity-utils#readme",
+  "gitHead": "8ec01dac91e56d74e93ba5cce86891375fb9fe1f"
 }
