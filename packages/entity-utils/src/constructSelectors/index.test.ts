@@ -1,6 +1,6 @@
 import type {EntityOf, StateOf} from '../types';
 import {Expect, Equal} from '../typingsTestUtils';
-import {constructSelectors} from '.';
+import {constructSelectors} from './index';
 
 const FooCollectionKey = 'foo' as const;
 type FooId = string;

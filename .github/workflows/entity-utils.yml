@@ -16,7 +16,7 @@ jobs:
           npm install
       - name: Check codestyle
         run: |
-          npm run ci:lint
+          cd packages/entity-utils && npm run ci:lint
   build:
     runs-on: ubuntu-latest
     steps:
@@ -30,7 +30,7 @@ jobs:
           npm install
       - name: Run build
         run: |
-          npm run ci:build
+          cd packages/entity-utils && npm run ci:build
   tests:
     runs-on: ubuntu-latest
     steps:
@@ -44,4 +44,4 @@ jobs:
           npm install
       - name: Run tests
         run: |
-          npm run ci:test
+          cd packages/entity-utils && npm run ci:test
