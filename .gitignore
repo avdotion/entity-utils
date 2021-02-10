@@ -4,6 +4,6 @@
 /examples/webapp/node_modules/
 /examples/webapp/.eslintcache
 /examples/webapp/build/
-
 /examples/simple/dist/
 /.husky/
+/packages/entity-utils/dist/

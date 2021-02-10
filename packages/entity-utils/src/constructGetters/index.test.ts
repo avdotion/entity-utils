@@ -1,6 +1,6 @@
 import type {EntityOf, StateOf} from '../types';
 import {Expect, Equal} from '../typingsTestUtils';
-import {constructGetters} from '.';
+import {constructGetters} from './index';
 
 type Coords =  Readonly<{
     lat: number,

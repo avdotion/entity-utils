@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "commonjs",
+    "target": "esnext",
+    "module": "esnext",
     "moduleResolution": "node",
     "declaration": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
     "removeComments": true,
     "downlevelIteration": true,
     "strict": true,
@@ -19,12 +17,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "src/**/*.test.ts",
-    "src/typingsTestUtils.ts"
-  ]
+  }
 }

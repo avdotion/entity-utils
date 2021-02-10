@@ -1,6 +1,6 @@
 import {Equal, Expect} from '../typingsTestUtils';
 import type {CollectionOf, EntityOf} from '../types';
-import {updateCollection} from '.';
+import {updateCollection} from './index';
 
 type FooId = string;
 const FooKey = 'foo' as const;

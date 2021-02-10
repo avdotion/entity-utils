@@ -1,19 +1,22 @@
 {
   "name": "entity-utils",
   "version": "0.0.1",
-  "description": "An utilities set to keep project fresh, designed especially for scaled applications",
-  "main": "packages/entity-utils/dist/index.js",
+  "description": "The utilities set which suggests a way your application prepares to be scaled.The utilities set which suggests a way your application prepares to be scaled.",
+  "main": "index.js",
   "scripts": {
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avdotion/entity-utils.git"
+    "test": "jest src/",
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "rebuild": "npm run clean && npm run build",
+    "lint": "eslint src/",
+    "lint:fix": "npm run lint -- --fix",
+    "ci:lint": "CI=true npm run lint",
+    "ci:build": "CI=true npm run build",
+    "ci:test": "CI=true npm run test",
+    "benchmark": "cd benchmark && npm run start"
   },
   "author": "Danila Avdoshin",
-  "license": "ISC",
+  "license" : "ISC",
   "bugs": {
     "url": "https://github.com/avdotion/entity-utils/issues"
   },

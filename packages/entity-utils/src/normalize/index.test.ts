@@ -1,6 +1,6 @@
 import {Expect, Equal} from '../typingsTestUtils';
-import {declareSchema, CollectionOf, itselfSchema, EntityOf} from '..';
-import {normalize} from '.';
+import {declareSchema, CollectionOf, itselfSchema, EntityOf} from '../index';
+import {normalize} from './index';
 
 type DenormalizedTodo = {
     id: number,
